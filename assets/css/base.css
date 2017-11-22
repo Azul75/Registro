@@ -1,0 +1,43 @@
+HTML {
+	font-size:16px;
+	font-family:'RobotoDraft', 'Roboto', sans-serif;
+}
+body {
+	margin:0px;
+	background-color:#092756;
+}
+div#container {
+	width:98.75%;
+	height:20%;
+	background-color:#EFEFEF;
+	border:solid .4rem #F39B53;
+	padding:2px 2px;
+	text-align: center;
+}
+div#container h1 {
+	color:#092756;
+}
+.form {
+	width:17.5%;
+	height:35rem;
+	float:left;
+	background-color:#EFEFEF;
+	border-bottom:solid .4rem #F39B53;
+	border-right:solid .4rem #F39B53;
+}
+	a {
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+}
+.imagen {
+	width:80%;
+	height:35rem;
+	float:right;
+	text-align:center;
+	background-image:url(../imagenes/leones.jpg);
+	background-size: 100% 100%;
+	border-left:solid .4rem #F39B53;
+	border-right:solid .4rem #F39B53;
+	border-bottom:solid .4rem #F39B53;
+}

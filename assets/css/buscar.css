@@ -1,0 +1,40 @@
+.center {
+	display:-webkit-flex;
+	display:-ms-flexbox;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+}
+	h2 {
+		text-align: center;
+		color: #EFEFEF;
+	}
+	.buscar, .exportar {
+		background-color: #EFEFEF;
+		display: flex;
+		flex: 1 1 80px;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		border-top: solid #F39B53 .3rem;
+		border-bottom: solid #F39B53 .3rem;
+		border-right: solid #F39B53 .3rem;
+	}
+		a {
+			text-align: center;
+			text-decoration: none;
+			font-size: 16px;
+		}
+
+		.table {
+			background-color: #EFEFEF;
+			border-bottom: solid #F39B53 .3rem;
+			border-right: solid #F39B53 .3rem;
+			justify-content: center;
+		}
+		table {
+			padding: .2rem;
+			margin: 0 auto;
+			align-items: center;
+		}
